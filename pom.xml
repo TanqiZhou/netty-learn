@@ -8,5 +8,25 @@
     <artifactId>netty-learn</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <lombok.version>1.18.10</lombok.version>
+        <slf4j-api.version>1.6.4</slf4j-api.version>
+        <junit.version>4.11</junit.version>
+        <logback-classic.version>1.2.3</logback-classic.version>
+    </properties>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.48.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>com.weinisuo.tanqi</groupId>
+            <artifactId>simple-project-dependencies</artifactId>
+            <version>2.2.2.1.BUILD-SNAPSHOT</version>
+            <type>pom</type>
+        </dependency>
+    </dependencies>
 </project>
